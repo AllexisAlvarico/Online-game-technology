@@ -1,0 +1,63 @@
+Question 3:
+Version: 4
+Helen: 20 bytes
+Service: 0x00
+Total Length: 40
+Identification:
+Flags: 0x40
+Fragmentation Offset: 0
+Time to live: 128
+Protocol: TCP(6)
+Header Checksum: Unverified
+Source IP Address: 149.153.106.152
+Destination IP address: 149.153.31.110
+Data: none
+
+|Version(4bits)|Helen(4bits)|Service(8bits)|Total Length(16bits)|
+|Identification(16bits)|Flags(3bits)|Fragmentation Offset(13bits)|
+|Time to live(8bits)|Protocol(8bits)|	Header Checksum(16bits)	|
+|		Source IP Address(32bits)			|
+|		Destination IP address(32bits)			|
+|			Data(32bits)				|
+
+Question 4:
+Version: The first IP header field is a 4-bit version indicator. The value of its four bits is set to 0100.
+If the router does not support the specified version, the packet will be dropped.
+
+Helen: Internet header length, short for Helen. This component is used to show how many 32-bit words are present in the header.
+Service: Service is also called differentiated service code point or DSCP. this field is provivded feature related to the quality
+of service for data streaming or VoIP calls.
+
+Total Length: Total lenght is measured in bytes. The minimum size of an IP datagram is 20 bytes and the maximum, it can be 65535 bytes.
+Helen and total length can be used to calculate the dimension of the payload. All hosts are required to be able to read 576-byte datagram.
+
+Identification: Identifying fragments of an IP datagram uniquely.
+
+Flags: Flag is a three-bit field that helps you control and identify fragments. Bit 0 is reserved and has to be set to zero,
+bit 1 means do not fragment, and bit 2 means more fragments.
+
+Fragmentation Offset: represents the number of data bytes ahead of the particular fragment in the specific datagram. It is specified
+in terms of the number of 8 bytes which has a maximum value of 65528 bytes.
+ 
+Time to live: It is an 8-bit field that indicates the maximum time the datagram will be live in the internet system. The time duration is
+measured in seconds, and when the value of TTL is zero, the datagram will be erased.
+
+Protocol: This IPv4 header is reserved to denote that internet protocol is used in the latter portion of the datagram.
+
+Header Checksum: The Ip header us compared to the value of its checksum. When the header checksum is not matching, 
+then the packet will be discarded.
+
+Source IP Address: The source address is a 32-bit address of the source used for the IPv4 packet.
+
+Destination IP address: The destination address is also 32 bit in size stores the address of the receiver.
+
+Data: This field stores the data from the protocol layer, which has handed over the data to the IP layer.
+
+Question 5:
+
+The differnce is the protocol, I had TCP and this packet has ICMP. The flags are also differnce where my one no fragments and this one has more fragment 
+
+
+
+
+
