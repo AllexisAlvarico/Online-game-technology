@@ -33,4 +33,4 @@ Q11
 C 4
 
 Q12
-A 20pkts
+A 40pkts
