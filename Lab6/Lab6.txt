@@ -1,0 +1,36 @@
+Q1: 
+C 435
+
+Q2:
+Yes
+
+Q3:
+4. whether it increases the timeout depends on the deviation
+
+Q4:
+(1-0.25)*8 + 0.25(108-101) = 7.5
+100+4(8) = 132ms
+
+Q5:
+C Flow control
+
+Q6
+B 1.5RTT
+
+Q7
+A per-byte Sequence
+
+Q8
+
+
+Q9
+HTTP, SMTP, TFTP and FTP
+
+Q10
+C 0.8
+
+Q11
+C 4
+
+Q12
+A 20pkts
