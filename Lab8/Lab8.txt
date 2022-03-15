@@ -1,0 +1,10 @@
+Lab 8:
+
+Q1:
+
+The Bind() function within the server which bind a port, and also has the
+Listen() function to wait for the cilent to connect. Connect() is also a function.
+
+Q2:
+The UDP implementation will sent data regardless if there is any connection which
+leads to the loss of packets
