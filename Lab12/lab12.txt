@@ -1,0 +1,41 @@
+Lab 12:
+
+A)What are the advantages and disadvantages of the 
+client/server and peer to peer multiplayer game architectures?
+
+Advantage:
+Client-server:
+- Server can control and record
+transactions by clients.
+- Server can work with a wider
+variety of clients.
+
+P2P:
+- Popular data = more distribution = faster
+- Peers need to be fairly compatible.
+
+Disadvantage:
+Client-server:
+- Popular data = more congestion = slower
+- The efficiency and reliabilty depend on server
+
+P2P:
+- Peers need to find each other
+- Transactions are not recorded, harder to trace
+
+B) In the peer-to-peer network architecture with authoritative host, 
+how the peers communicate with each other? Draw diagrams to aid 
+your explanation if appropriate.
+
+- Its the same setup as traditional peer-to-peer but with one host(Authoritative) going around
+to other host and giving their IP address when the Authoritative host finds a new ones and passes
+the information forwards to another hosts.
+!--- Diagram on the folder (question b diagram.png) ---- !
+
+(c) In the context of "port restricted" NAT devices, what does the hole-punching technique do? 
+Describe this technique, using a diagram to aid your explanation if appropriate. 
+
+Circumventing NAT with UDP hole punching is the technique. Its is called UDP hole punching because
+it punches a hole in the firewall of the network which allows a packet from an outside system to
+successfully reach the desired client on a network using NAT.
+
