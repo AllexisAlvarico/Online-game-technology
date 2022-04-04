@@ -1,0 +1,40 @@
+Q.1
+A = 10
+B = 1111
+C = 1110
+D = 110
+E = 0
+
+
+A(2) + B(4) + C(4) + D(3) + E(1) /5
+
+Q.2
+Delta compression is usually applied in cases where there is a high degree of redundancy
+between target and references files, leading to a much smaller compressed
+size than could be achieved by just compressing the target file by itself.
+
+Example to use delta compression, is when revision control systems versioned
+file systems that store many version or content updates over networks where
+the recipient already has an older version of the data.
+
+Q.3
+BABAABAAA
+
+dictionary table
+A = 0
+B = 1
+C = 2
+D = 4
+BA = 5
+AB = 6
+BAA = 7
+ABA = 8
+AA = 9
+
+B = 1
+A = 0
+BA = 5
+AB = 6
+A = 0
+
+10560
