@@ -1,0 +1,8 @@
+(a) Can latency be eliminated completely? Explain why.
+No, latency should be minimised as much as possible, but although data moves around at the speed of light
+on fibre-optic cables, the distance between the user and the server, and delays on internet infrastructure equipment means latency can be
+never eliminated completely.
+
+(b) Use an example (shooting round corners/fire-proof problem, etc.) to  illustrate how latency is related to consistency? Use diagrams if appropriate.                        
+
+(c) There are two categories of techniques for consistency management: optimistic and conservative. Which category do the following techniques belong to: dumb client and client-side prediction. Describe the dumb client and client-side prediction.
