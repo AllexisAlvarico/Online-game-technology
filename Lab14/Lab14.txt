@@ -1,8 +1,16 @@
 (a) Can latency be eliminated completely? Explain why.
-No, latency should be minimised as much as possible, but although data moves around at the speed of light
-on fibre-optic cables, the distance between the user and the server, and delays on internet infrastructure equipment means latency can be
-never eliminated completely.
 
-(b) Use an example (shooting round corners/fire-proof problem, etc.) to  illustrate how latency is related to consistency? Use diagrams if appropriate.                        
+No, latency should be minimized as much as possible, but although data moves around at the speed of light on fiber-optic cables, the distance between the user and the server, and delays on internet infrastructure equipment mean latency can be never eliminated completely.
+
+(b) Use an example (shooting round corners/fire-proof problem, etc.) to illustrate how latency is related to consistency? Use diagrams if appropriate.      
+
+The ghost bullets are one of the latency problems. When a player shoots at a high latency it doesn’t register the hit to the enemy player and the player dies from the server not registering the shot at the beginning.
+                  
 
 (c) There are two categories of techniques for consistency management: optimistic and conservative. Which category do the following techniques belong to: dumb client and client-side prediction. Describe the dumb client and client-side prediction.
+
+The dumb client is in the category of conservative. A dumb client depends on a connection to a server for its
+functionality. The dumb client sends an input to the server which the server calculates the state and sends it back to the clients.
+
+Client-side prediction is applying each input to the client's own state and sending it to the server. Each input is stored in chronological order in a buffer, along with the state of the player of that time.
+Once it has been sent, the server applies each input as they are received and then transmits the state back to the client with the time of that state.
