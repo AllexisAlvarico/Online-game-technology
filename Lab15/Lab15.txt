@@ -1,0 +1,12 @@
+(a) Cheating in online games is the action of pretending to comply with the rules of the game, while secretly subverting them to gain an unfair advantage over an opponent. Describe two ways of cheating. Please include details of how each cheating works and a mechanism to prevent it.
+
+WallHacks:
+WallHacks allows the cheating player to get each player's client computer to receive information about all other players. Using this cheat allows the player to see all the other players which give advantages to seeing potential player/threats on the paths/road. To stop this type of cheating, the map rendering could be turned off completely, so that all players could be seen moving around in what appears to be empty space.
+
+Aimbot:
+Allows the cheating player to pinpoint his aim onto the head of another player making their shots unmissable giving them an unfair advantage. The way to prevent this type of cheat is to allow the dead players who died to this player to spectate the cheater so they can verify if the person has an aimbot or not.
+
+
+(b) Interest management is important for good network performance in massively multiplayer games. Interest management cuts down the bandwidth usage by filtering irrelevant updates. What is a potentially visible set, and how does this approach differ from static zones? How do these interest management approaches benefit the game?
+
+From each location in the world, PVS is the set of regions that are potentially visible. The general goal of interest management is to reduce the cost of data communication in a distributed game. It improves the scalability of a game by limiting the amount of information transmitted to the players according to their relevance.
